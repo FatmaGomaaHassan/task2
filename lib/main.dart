@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+
       home: ListScreen(
 
 
@@ -42,7 +43,7 @@ class ListScreen extends StatelessWidget {
       iconb: Icons.label_important_outline_rounded,
     ),
     AFF(
-      textA: 'work',
+      textA: 'Work',
       iconk: Icons.work,
       iconb: Icons.label_important_outline_rounded,
     ),
@@ -91,10 +92,13 @@ class ListScreen extends StatelessWidget {
                 leading:
                 Icon(
                   myList[index].iconk,
+                  color: Colors.deepPurple,
 
                 ),
                 trailing: Icon(
                   myList[index].iconb,
+                  color: Colors.deepPurple,
+
                 ),
 
 
